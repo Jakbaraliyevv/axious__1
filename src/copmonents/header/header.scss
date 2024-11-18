@@ -1,0 +1,132 @@
+.header1 {
+  background-color: rgb(242, 244, 247);
+}
+
+.header1 > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header1__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  > p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #333;
+  }
+
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .location__ {
+      color: rgb(128, 130, 134);
+    }
+
+    p {
+      color: rgb(128, 130, 134);
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+      span {
+        color: #333;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+      }
+    }
+  }
+}
+
+.header1__middle {
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: rgb(128, 130, 134);
+  }
+}
+
+.header1__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  > p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    color: #333;
+  }
+  .uzb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 286%;
+      text-align: center;
+      color: #121212;
+    }
+  }
+}
+
+// header2
+
+.all_headr2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .katalog {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 255);
+  }
+}
+
+.form {
+  width: 600px;
+  border: 2px solid rgb(217, 218, 219);
+  height: 30px;
+  border-radius: 5px;
+  input {
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 12px;
+    background-color: transparent;
+  }
+
+  button {
+    width: 10%;
+    height: 100%;
+    border-radius: 0 3px 3px 0px;
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    text-align: center;
+    color: #121212;
+  }
+}
+
